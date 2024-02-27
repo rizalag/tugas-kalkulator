@@ -1,0 +1,44 @@
+body{
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    background-color: black;
+}
+button{
+    height: 50px;
+    margin: 2px;
+    font-size: 1.2em;
+    border-style: none;
+}
+.calculator{
+ position: relative;
+ top: 150px;
+ margin: 0 auto;
+ max-width: 300px;
+}
+.calcButtons{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 0 auto;
+    background-color: gray;
+    padding: 10px;
+}
+.operator{
+    background-color: solid white;
+}
+.number{
+    background-color: antiquewhite;
+}
+.userInput{
+    position: relative;
+    height: 80px;
+    max-width: 100%;
+    font-size: 25px;
+    background-color: antiquewhite;
+    padding: 10px;
+    text-align: right;
+}
+.calcButtons > button:nth-child(19){
+    background-color: solid white;
+}
